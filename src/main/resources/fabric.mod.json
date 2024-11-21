@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "balancedtransport",
+  "version": "${version}",
+  "name": "Balanced Transport",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "dev.hbop.balancedtransport.client.BalancedTransportClient"
+    ],
+    "main": [
+      "dev.hbop.balancedtransport.BalancedTransport"
+    ]
+  },
+  "mixins": [
+    "balancedtransport.mixins.json",
+    {
+      "config": "balancedtransport.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
