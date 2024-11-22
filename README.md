@@ -5,26 +5,4 @@
 
 Although not required, this mod is intended to be played with other mods in the [Balanced Minecraft](https://modrinth.com/collection/s7K5qS4R) collection.
 
-## Features
-<details>
-  <summary>Minecarts</summary>
-  <ul>
-    <li>Minecarts are much faster</li>
-    <li>Powered rails are crafted with copper instead of gold</li>
-    <li>Superpowered rails are crafted with gold and increase minecart top speed</li>
-  </ul>
-</details>
-<details>
-  <summary>Elytra</summary>
-  <ul>
-    <li>Phantoms spawn only in the end</li>
-    <li>Phantom membrane is the only way to repair elytra</li>
-  </ul>
-</details>
-<details>
-  <summary>Miscellaneous</summary>
-  <ul>
-    <li>Two players can ride one horse</li>
-    <li>All ice melts in the nether</li>
-  </ul>
-</details>
+See the full list of features on the [Modrinth page](https://modrinth.com/project/balanced-transport).
