@@ -4,6 +4,10 @@
   "package": "dev.hbop.balancedtransport.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "minecart.M_AbstractMinecartEntity",
+    "boat.M_Blocks",
+    "minecart.M_ExperimentalMinecartController",
+    "boat.M_IceBlock"
   ],
   "injectors": {
     "defaultRequire": 1
