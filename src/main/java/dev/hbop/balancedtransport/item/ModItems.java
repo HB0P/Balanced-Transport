@@ -9,10 +9,12 @@ import net.minecraft.item.Items;
 public class ModItems {
 
     public static final Item SUPERPOWERED_RAIL = Items.register(ModBlocks.SUPERPOWERED_RAIL);
+    public static final Item DIRECTIONAL_RAIL = Items.register(ModBlocks.DIRECTIONAL_RAIL);
     
     public static void registerItems() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.REDSTONE).register((itemGroup) -> {
-            itemGroup.add(SUPERPOWERED_RAIL);
+            itemGroup.addAfter(Items.POWERED_RAIL, SUPERPOWERED_RAIL);
+            itemGroup.addAfter(SUPERPOWERED_RAIL, DIRECTIONAL_RAIL);
         });
     }
 }

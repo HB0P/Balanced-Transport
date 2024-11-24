@@ -10,5 +10,6 @@ public class BalancedTransportClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SUPERPOWERED_RAIL, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.DIRECTIONAL_RAIL, RenderLayer.getCutout());
     }
 }

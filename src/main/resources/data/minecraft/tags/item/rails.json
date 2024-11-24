@@ -1,5 +1,6 @@
 {
   "values": [
-    "balancedtransport:superpowered_rail"
+    "balancedtransport:superpowered_rail",
+    "balancedtransport:directional_rail"
   ]
 }

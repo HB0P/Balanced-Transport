@@ -3,16 +3,15 @@
   "category": "misc",
   "key": {
     "#": "minecraft:stick",
-    "R": "minecraft:redstone",
-    "X": "minecraft:gold_ingot"
+    "X": "minecraft:iron_ingot"
   },
   "pattern": [
     "X X",
     "X#X",
-    "XRX"
+    "X X"
   ],
   "result": {
-    "count": 12,
-    "id": "balancedtransport:superpowered_rail"
+    "count": 24,
+    "id": "minecraft:rail"
   }
 }

@@ -4,15 +4,16 @@
   "key": {
     "#": "minecraft:stick",
     "R": "minecraft:redstone",
-    "X": "minecraft:gold_ingot"
+    "Q": "minecraft:quartz",
+    "X": "minecraft:copper_ingot"
   },
   "pattern": [
-    "X X",
+    "XQX",
     "X#X",
     "XRX"
   ],
   "result": {
-    "count": 12,
-    "id": "balancedtransport:superpowered_rail"
+    "count": 6,
+    "id": "balancedtransport:directional_rail"
   }
 }

@@ -16,6 +16,11 @@ public class ModBlocks {
             PoweredRailBlock::new, 
             AbstractBlock.Settings.create().noCollision().strength(0.7F).sounds(BlockSoundGroup.METAL)
     );
+    public static final Block DIRECTIONAL_RAIL = Blocks.register(
+            RegistryKey.of(RegistryKeys.BLOCK, BalancedTransport.identifier("directional_rail")),
+            DirectionalRailBlock::new,
+            AbstractBlock.Settings.create().noCollision().strength(0.7F).sounds(BlockSoundGroup.METAL)
+    );
     
     public static void registerBlocks() {
         
